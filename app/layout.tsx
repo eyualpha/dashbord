@@ -6,6 +6,7 @@ import AppSidebar from "@/components/AppSidebar";
 import { ThemeProvider } from "@/components/provides/ThemeProviders";
 import { SidebarProvider } from "@/components/ui/sidebar";
 import { cookies } from "next/headers";
+import { Separator } from "@/components/ui/separator";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -44,6 +45,7 @@ export default async function RootLayout({
             <AppSidebar />
             <div className="w-full">
               <Navbar />
+              {/* <Separator /> */}
               <div className=" px-4">{children}</div>
             </div>
           </SidebarProvider>
