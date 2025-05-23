@@ -33,7 +33,7 @@ const chartData = [
 export default function AppAreaChart() {
   return (
     <div>
-      <h1 className="text-lg font-medium mb-6">Monthly Vistors</h1>
+      <h1 className="text-lg font-medium mb-6">User Devices</h1>
       <ChartContainer config={chartConfig} className="min-h-[200px] w-full">
         <AreaChart accessibilityLayer data={chartData}>
           <CartesianGrid vertical={false} />
