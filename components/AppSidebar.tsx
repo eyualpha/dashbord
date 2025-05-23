@@ -33,12 +33,7 @@ import {
 
 import Link from "next/link";
 import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
-import {
-  DropdownMenu,
-  DropdownMenuItem,
-  DropdownMenuLabel,
-  DropdownMenuSeparator,
-} from "./ui/dropdown-menu";
+import { DropdownMenu, DropdownMenuItem } from "./ui/dropdown-menu";
 import {
   DropdownMenuContent,
   DropdownMenuTrigger,
@@ -222,6 +217,9 @@ const AppSidebar = () => {
                 <DropdownMenuItem>Profile</DropdownMenuItem>
                 <DropdownMenuItem>Setting</DropdownMenuItem>
                 <DropdownMenuItem>Sign Out</DropdownMenuItem>
+                <DropdownMenuItem>
+                  <Link href="/users/user">User</Link>
+                </DropdownMenuItem>
               </DropdownMenuContent>
             </DropdownMenu>
           </SidebarMenuItem>

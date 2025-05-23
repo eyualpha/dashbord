@@ -47,7 +47,7 @@ export function PieChart() {
   const totalVisitors = chartData.reduce((acc, item) => acc + item.visitors, 0);
   return (
     <div className="">
-      <h1 className="text-lg font-medium mb-2 md:md-6">Monthly Vistors</h1>
+      <h1 className="text-lg font-medium md-6">Monthly Vistors</h1>
       <ChartContainer
         config={chartConfig}
         className="mx-auto aspect-square max-h-[250px]"
