@@ -102,7 +102,14 @@ export default function singleUserPage() {
           </div>
           {/* information container */}
           <div className="bg-primary-foreground p-4 rounded-lg">
-            informatoin
+            <h1 className="text-lg font-medium mb-6">User Information</h1>
+            <div className=" space-y-4 mt-2">
+              <div className=" flex flex-col gap-2 mb-8">
+                <p className="text-sm text-muted-foreground">
+                  Profile Completion
+                </p>
+              </div>
+            </div>
           </div>
           {/* card list container */}
           <div className="bg-primary-foreground p-4 rounded-lg">
