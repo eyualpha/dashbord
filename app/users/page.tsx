@@ -16,7 +16,6 @@ export default function Users() {
             <BreadcrumbLink href="/">Dashboard</BreadcrumbLink>
           </BreadcrumbItem>
           <BreadcrumbSeparator />
-
           <BreadcrumbItem>
             <BreadcrumbPage>Jhone Doe</BreadcrumbPage>
           </BreadcrumbItem>

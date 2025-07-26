@@ -4,6 +4,7 @@ import {
   ChevronDown,
   ChevronUp,
   Computer,
+  DollarSign,
   Home,
   Inbox,
   Plus,
@@ -44,13 +45,13 @@ import { CollapsibleContent } from "@radix-ui/react-collapsible";
 const items = [
   {
     title: "Home",
-    url: "#",
+    url: "/",
     icon: Home,
   },
   {
-    title: "Inbox",
-    url: "#",
-    icon: Inbox,
+    title: "Payments",
+    url: "/payments",
+    icon: DollarSign,
   },
   {
     title: "Calendar",
